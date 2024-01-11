@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-color: #00487c;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+.main {
+  margin: auto;
+  height: 300px;
+  width: 80%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.button-holder {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 35%;
+  height: 40px;
+  background-color: #4bb3fd;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: 1s;
+}
+.btn-no {
+  width: 35%;
+  height: 40px;
+  background-color: #4bb3fd;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: 1s;
+}
+.btn:hover {
+  background-color: white;
+  color: #4bb3fd;
+}
+.btn-no:hover {
+  background-color: white;
+  color: #4bb3fd;
+}
