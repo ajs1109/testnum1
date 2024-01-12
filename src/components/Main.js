@@ -18,10 +18,10 @@ const Main = () => {
         let rect = btn.getBoundingClientRect();
         console.log(rect);
         let left = Math.floor(Math.random() * rect.left);
-        let right = Math.floor(Math.random() * rect.right);
+        // let right = Math.floor(Math.random() * rect.right);
 
         let top = Math.floor(Math.random() * rect.top);
-        let bottom = Math.floor(Math.random() * rect.bottom);
+        // let bottom = Math.floor(Math.random() * rect.bottom);
         setPoint(`translate(${-left}px,${-top}px)`);
         console.log(point);
     }
